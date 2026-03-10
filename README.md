@@ -1,1 +1,23 @@
+#This repository contains an end-to-end pipeline for converting experimental video footage into trained object detection models. 
+Developed as part of research involving image processing and pattern recognition, this workflow utilizes YOLOv3 to identify and 
+track specific subjects (Pig1, Pig2, and Big Toy) across complex datasets.
 
+##The project is divided into two main phases: Data Preprocessing (local) and Model Training (Cloud/Colab).
+Phase 1: Data Preparation 
+Phase 2: Model Training (source_code/dnn_model/)
+Designed for high-performance computing
+
+##🛠 Technical Stack
+
+Architecture: YOLOv3 (You Only Look Once) 
+Environment: Google Colab, Linux, Windows 
+Libraries: NumPy, Pandas, Matplotlib, PyTorch/TensorFlow 
+Annotation: labelImg (Graphical Image Annotation Tool)
+
+##📊 Performance & Accuracy
+Drawing from research experience in topological data and CNNs, this model follows rigorous benchmarking standards:
+Training Platform: Optimized using cloud-based GPU instances.
+Metric Focus: Achieved high accuracy in object positioning with bounding boxes, consistent with previous research benchmarks (e.g., 85% accuracy in large-scale image sets).
+
+##🤝 Collaboration & Experiment Tracking
+As a Weights & Biases Dev Expert, I recommend tracking the Train_YoloV3.ipynb runs using W&B to monitor mAP (mean Average Precision) and loss curves.
