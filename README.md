@@ -1,8 +1,8 @@
-# This repository contains an end-to-end pipeline for converting experimental video footage into trained object detection models. 
+This repository contains an end-to-end pipeline for converting experimental video footage into trained object detection models. 
 Developed as part of research involving image processing and pattern recognition, this workflow utilizes YOLOv3 to identify and 
 track specific subjects (Pig1, Pig2, and Big Toy) across complex datasets.
 
-## The project is divided into two main phases: Data Preprocessing (local) and Model Training (Cloud/Colab).
+The project is divided into two main phases: Data Preprocessing (local) and Model Training (Cloud/Colab).
 Phase 1: Data Preparation 
 Phase 2: Model Training (source_code/dnn_model/)
 Designed for high-performance computing
